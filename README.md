@@ -18,3 +18,5 @@ The layout of this project was inspired by the following Bootstrap example: http
 * [Image Size Recommendations](https://support.squarespace.com/hc/en-us/articles/206542517-Formatting-your-images-for-display-on-the-web)
 * [Image Styling](https://www.w3schools.com/css/css3_images.asp)
 * [Button CSS](https://codepen.io/cheeriottis/pen/inluv)
+* [Flexbox](https://www.learnenough.com/css-and-layout-tutorial/css/flex-intro/flex-footer)
+* [Breakpoint Selection](https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints)
