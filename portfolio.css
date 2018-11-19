@@ -157,3 +157,10 @@ a {
   text-decoration: none;
   margin: 0 5px 0 5px;
 }
+
+.profile-picture {
+  max-width: 35%;
+  border: 5px solid #1c313a;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}

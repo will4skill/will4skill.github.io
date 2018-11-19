@@ -14,3 +14,5 @@ The layout of this project was inspired by the following Bootstrap example: http
 * [Font Weight](https://getbootstrap.com/docs/4.1/utilities/text/#font-weight-and-italics)
 * [Line Height](https://material.io/design/typography/understanding-typography.html#readability)
 * [CSS Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+* [Image Size Recommendations](https://support.squarespace.com/hc/en-us/articles/206542517-Formatting-your-images-for-display-on-the-web)
+* [Image Styling](https://www.w3schools.com/css/css3_images.asp)
