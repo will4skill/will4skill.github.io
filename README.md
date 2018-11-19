@@ -13,3 +13,4 @@ The layout of this project was inspired by the following Bootstrap example: http
 * [Safe Fonts](https://www.cssfontstack.com/)
 * [Font Weight](https://getbootstrap.com/docs/4.1/utilities/text/#font-weight-and-italics)
 * [Line Height](https://material.io/design/typography/understanding-typography.html#readability)
+* [CSS Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
