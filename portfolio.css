@@ -20,7 +20,7 @@
 }
 
 .home-text {
-  font-size: 20px;
+  color: white;
   font-weight: 700;
   margin-left: 5px;
 }
@@ -48,6 +48,7 @@ section {
 }
 
 .footer-icon {
+  color: white;
   margin: 0 5px 0 5px;
   text-decoration: none;
 }
@@ -58,6 +59,10 @@ h1,h5,h6,p {
   margin: 0;
   padding: 0;
 }
+
+h1 { font-size: 2.5em; }
+h5 { font-size: 1.25em; }
+h6,p { font-size: 1em; }
 
 /* Hero */
 .hero-container {
@@ -77,14 +82,13 @@ h1,h5,h6,p {
 }
 
 .hero-title {
-  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   margin-bottom: 6px;
 }
 
 .hero-description {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 42px;
@@ -117,7 +121,7 @@ h1,h5,h6,p {
 
 .project {
   background-color: #F5F5F6;
-  border-radius: 4px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   display: inline-block;
   flex-basis: 28%;
@@ -144,7 +148,6 @@ h1,h5,h6,p {
 
 .project-title {
   color: black;
-  font-size: 20px;
   font-weight: 700;
   line-height: 28px;
   margin-bottom: 6px;
@@ -152,14 +155,12 @@ h1,h5,h6,p {
 
 .project-subtitle {
   color: #546e7a;
-  font-size: 16px;
   font-weight: 700;
   line-height: 22px;
   margin-bottom: 8px;
 }
 
 .project-description {
-  font-size: 16px;
   font-weight: 400;
   height: 80px;
   line-height: 22px;
@@ -196,18 +197,18 @@ h1,h5,h6,p {
 }
 
 @media (max-width: 768px) {
+  .hero-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 70%;
+  }
+
   .project {
     flex-basis: 60%;
   }
 
   .project-container {
     padding: 36px 0;
-  }
-
-  .info-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    width: 70%;
   }
 }
 
@@ -220,17 +221,25 @@ h1,h5,h6,p {
     padding-left: 40px;
   }
 
+  h1 {
+    font-size: 2em;
+  }
+
+  .hero-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 80%;
+  }
+
+  .hero-description {
+    font-size: 1.1em;
+  }
+
   .project {
     flex-basis: 90%;
   }
 
   .project-container {
     padding: 24px 0;
-  }
-
-  .info-container {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    width: 80%;
   }
 }
