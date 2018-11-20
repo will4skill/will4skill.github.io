@@ -9,7 +9,6 @@ The layout of this project was inspired by the following Bootstrap example: http
 * [Box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 * [Icons](https://fontawesome.com)
 * [Font Selection](https://www.learnenough.com/css-and-layout-tutorial)
-* [Media Breakpoints]
 * [Safe Fonts](https://www.cssfontstack.com/)
 * [Font Weight](https://getbootstrap.com/docs/4.1/utilities/text/#font-weight-and-italics)
 * [Line Height](https://material.io/design/typography/understanding-typography.html#readability)
@@ -23,3 +22,4 @@ The layout of this project was inspired by the following Bootstrap example: http
 * [Favicon Tips](https://www.learnenough.com/css-and-layout-tutorial?single_page=1#sec-details-favicon)
 * [Mailto Links](https://knowledge.hubspot.com/articles/kcs_article/cos-pages-editor/how-do-i-create-a-mailto-link)
 * [CSS Comments](https://www.learnenough.com/css-and-layout-tutorial?single_page=1#aside-style_note-comments)
+* [Add Vendor Prefixes](https://autoprefixer.github.io/)
