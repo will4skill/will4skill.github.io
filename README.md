@@ -22,3 +22,4 @@ The layout of this project was inspired by the following Bootstrap example: http
 * [Breakpoint Selection](https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints)
 * [Favicon Tips](https://www.learnenough.com/css-and-layout-tutorial?single_page=1#sec-details-favicon)
 * [Mailto Links](https://knowledge.hubspot.com/articles/kcs_article/cos-pages-editor/how-do-i-create-a-mailto-link)
+* [CSS Comments](https://www.learnenough.com/css-and-layout-tutorial?single_page=1#aside-style_note-comments)

@@ -1,123 +1,128 @@
+/* Layout */
 .navbar {
   color: white;
   background: #1c313a;
-  padding: 25px 0px;
+  padding: 25px 0;
   position: fixed;
   width: 100%;
-  z-index: 3;
   padding-left: 80px;
+  z-index: 3;
 }
 
-.home-button {
-  display: flex;
+.home {
   align-items: center;
+  display: flex;
   text-decoration: none;
 }
 
-.logo {
+.home-logo {
   width: 30px;
 }
 
-.icon-text {
+.home-text {
   font-size: 20px;
   font-weight: 700;
   margin-left: 5px;
+}
+
+body {
+  background: #1c313a;
+  font-family: helvetica, arial, sans;
+  margin: 0;
 }
 
 main {
   padding-top: 70px;
 }
 
-strong {
-  font-size: 20px;
-}
-
 section {
   background-color: #b0bec5;
-  width: 100%;
   display: block;
+  width: 100%;
 }
 
-.info-container {
+.footer {
+  background-color: #1c313a;
+  color: white;
+  padding: 48px 0 48px 80px;
+}
+
+.footer-icon {
+  margin: 0 5px 0 5px;
+  text-decoration: none;
+}
+
+h1,h5,h6,p {
+  font-family: helvetica, arial, sans;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero */
+.hero-container {
+  color: #1c313a;
+  margin: auto;
   padding-top: 72px;
   padding-bottom: 72px;
   text-align: center;
   width: 650px;
-  margin: auto;
-  color: #1c313a;
 }
 
-.info-title {
+.hero-picture {
+  border: 5px solid #1c313a;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  max-width: 35%;
+}
+
+.hero-title {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   margin-bottom: 6px;
 }
 
-.info-description {
+.hero-description {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 42px;
 }
 
-.info-icon {
-  display: inline-block;
+.hero-icon {
   color: #1c313a;
+  display: inline-block;
   margin: 0 10px 0 10px;
   text-decoration: none;
   transition: all 0.1s;
 }
 
-.info-icon:active {
+.hero-icon:active {
   transform: scale(0.9, 0.9);
 }
 
-.info-icon:hover {
+.hero-icon:hover {
   color: white;
 }
 
-body {
-  font-family: helvetica, arial, sans;
-  background: #1c313a;
-  margin: 0px;
-}
-
-.footer {
-  color: white;
-  background-color: #1c313a;
-  padding: 48px 0 48px 80px;
-}
-
-h1,h5,h6,p {
-  font-family: helvetica, arial, sans;
-  font-weight: 100;
-  padding: 0px;
-  margin: 0px;
-}
-
+/* Projects */
 .project-container {
   background-color: #E1E2E1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 48px 0px;
+  padding: 48px 0;
 }
 
 .project {
   background-color: #F5F5F6;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   display: inline-block;
   flex-basis: 28%;
-  border-radius: 4px;
   margin: 15px 15px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-  transition: all 0.3s;
-}
-
-.project-image {
-  width: 100%;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  transition: all 0.4s;
 }
 
 .project:hover {
@@ -125,74 +130,65 @@ h1,h5,h6,p {
   transform: scale(1.05, 1.05);
 }
 
+.project-image {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+}
+
 .project-info {
-  text-align: center;
-  padding: 20px;
   height: 200px;
+  padding: 20px;
+  text-align: center;
 }
 
 .project-title {
+  color: black;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
   margin-bottom: 6px;
-  color: black;
 }
 
 .project-subtitle {
+  color: #546e7a;
   font-size: 16px;
   font-weight: 700;
   line-height: 22px;
   margin-bottom: 8px;
-  color: #546e7a;
 }
 
 .project-description {
   font-size: 16px;
   font-weight: 400;
+  height: 80px;
   line-height: 22px;
   margin-bottom: 12px;
-  height: 80px;
 }
 
 .button {
-  display: inline-block;
-  padding: 6px 8px;
-  border-radius: 6px;
-  text-decoration: none;
   background-color: #0026ca;
-  color: white;
-  margin: 0 3px 0 3px;
-  font-weight: 600;
-  transition: all 0.1s;
   border: 3px solid #546e7a;
+  border-radius: 6px;
+  color: white;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0 3px 0 3px;
+  padding: 6px 8px;
+  text-decoration: none;
+  transition: all 0.1s;
 }
 
 .button:active {
-  transform: scale(0.9, 0.9);
   border-width: 5px;
+  transform: scale(0.9, 0.9);
 }
 
 .button:hover {
   color: #546e7a;
 }
 
-a {
-  color: white;
-}
-
-.footer-icon {
-  text-decoration: none;
-  margin: 0 5px 0 5px;
-}
-
-.profile-picture {
-  max-width: 35%;
-  border: 5px solid #1c313a;
-  border-radius: 8px;
-  margin-bottom: 8px;
-}
-
+/* Breakpoints */
 @media (max-width: 992px) {
   .project {
     flex-basis: 40%;
@@ -205,7 +201,7 @@ a {
   }
 
   .project-container {
-    padding: 36px 0px;
+    padding: 36px 0;
   }
 
   .info-container {
@@ -229,7 +225,7 @@ a {
   }
 
   .project-container {
-    padding: 24px 0px;
+    padding: 24px 0;
   }
 
   .info-container {
