@@ -20,3 +20,4 @@ The layout of this project was inspired by the following Bootstrap example: http
 * [Button CSS](https://codepen.io/cheeriottis/pen/inluv)
 * [Flexbox](https://www.learnenough.com/css-and-layout-tutorial/css/flex-intro/flex-footer)
 * [Breakpoint Selection](https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints)
+* [Favicon Tips](https://www.learnenough.com/css-and-layout-tutorial?single_page=1#sec-details-favicon)

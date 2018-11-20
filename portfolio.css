@@ -5,12 +5,23 @@
   position: fixed;
   width: 100%;
   z-index: 3;
+  padding-left: 80px;
 }
 
-.project-image {
-  width: 100%;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+.home-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 30px;
+}
+
+.icon-text {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5px;
 }
 
 main {
@@ -31,7 +42,7 @@ section {
   padding-top: 72px;
   padding-bottom: 72px;
   text-align: center;
-  width: 80%;
+  width: 650px;
   margin: auto;
   color: #1c313a;
 }
@@ -96,12 +107,17 @@ h1,h5,h6,p {
 .project {
   background-color: #F5F5F6;
   display: inline-block;
-  flex-basis: 25%;
+  flex-basis: 28%;
   border-radius: 4px;
-  /* height: 450px; */
   margin: 15px 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   transition: all 0.3s;
+}
+
+.project-image {
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .project:hover {
@@ -113,6 +129,7 @@ h1,h5,h6,p {
 .project-info {
   text-align: center;
   padding: 20px;
+  height: 200px;
 }
 
 .project-title {
@@ -136,9 +153,7 @@ h1,h5,h6,p {
   font-weight: 400;
   line-height: 22px;
   margin-bottom: 12px;
-}
-
-.button-container {
+  height: 80px;
 }
 
 .button {
@@ -161,13 +176,6 @@ h1,h5,h6,p {
 
 .button:hover {
   color: #546e7a;
-}
-
-.icon-text {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 28px;
-  padding-left: 80px;
 }
 
 a {
@@ -196,6 +204,11 @@ a {
   .project {
     flex-basis: 60%;
   }
+
+  .project-container {
+    padding: 36px 0px;
+  }
+
   .info-container {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -204,7 +217,7 @@ a {
 }
 
 @media (max-width: 576px) {
-  .icon-text {
+  .navbar {
     padding-left: 40px;
   }
 
@@ -215,6 +228,11 @@ a {
   .project {
     flex-basis: 90%;
   }
+
+  .project-container {
+    padding: 24px 0px;
+  }
+
   .info-container {
     padding-top: 48px;
     padding-bottom: 48px;
