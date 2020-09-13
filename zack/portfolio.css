@@ -1,0 +1,203 @@
+/* Layout */
+
+body {
+  background: #FFFFFF;
+  font-family: helvetica, arial, sans;
+  margin: 0;
+}
+
+html, body, main {
+  height: 100%;
+}
+
+h1,h5,h6,p {
+  font-family: Montserrat, helvetica, arial, sans;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+h5 { font-size: 1.25em; }
+h6,p { font-size: 1em; }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.project-title:hover {
+  font-weight: 600;
+}
+
+.project-img {
+  display: none;
+  margin: auto;
+  width: 50%;
+  border-radius: 4px;
+}
+
+
+.hero {
+  height: 35%;
+}
+
+.hero-resize {
+  height: 25%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+}
+
+.hero-title {
+  margin-left: 10px;
+  margin-top: 20px;
+  /* font-size: 2vw; */
+  text-decoration: none;
+}
+
+.hero-nav {
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 10px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.hero-nav-resize {
+  display: none;
+}
+
+.bar-container {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bar-container-resize {
+  justify-content: flex-end;
+}
+
+.color-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.color-bar-resize {
+  justify-content: space-between;
+}
+
+.color {
+  width: 10px;
+  height: 27px;
+  margin: 3px;
+  background: blue;
+}
+
+.color-resize {
+  width: 10%;
+}
+
+.hide {
+  display: none;
+}
+
+.profile-image {
+  width: 400px;
+  margin: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.profile-text {
+  text-align: center;
+  margin: 50px;
+
+}
+
+#about:hover, #index:hover, #contact:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+.project:hover {
+  cursor: pointer;
+  /* background: #F4F4E1; */
+}
+
+
+.bottom-button {
+  font-size: 0.75em;
+  text-align: right;
+  display: none;
+}
+
+.tall {
+  height: 80%;
+}
+
+.short {
+  height: 20%;
+}
+
+.fat {
+  width: 67% !important;
+}
+
+.thin {
+  width: 10% !important;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 65%;
+}
+
+.project-container-resize {
+  height: 75%;
+}
+
+.project {
+  transition: .5s;
+  flex-grow: 1;
+  width: 31%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  /* border-left: 1px solid black; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.project-text {
+  display: none;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .project, .fat, .thin {
+    width: 100% !important;
+  }
+  .short, .tall, .project {
+    height: 10%;
+  }
+  .active {
+    height: 40%;
+  }
+
+  .project {
+    overflow: visible;
+  }
+}

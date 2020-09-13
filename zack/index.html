@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta name="description" content="This is my portfolio.">
+    <link href="favicon.png" rel="icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src=""></script>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="header">
+        <div class="hero-title">
+          <a href="/index.html">
+            <h1>Zachary Williams</h1>
+            <h1>Designer</h1>
+          </a>
+        </div>
+        <div class="hero-nav">
+          <a href="/profile.html">
+            <div id="about">About Zack</div>
+          </a>
+          <div id="contact"></div>
+          <a href="https://www.instagram.com/husha.tk">
+            <div id="about">Instagram</div>
+          </a>
+          <a href="https://www.linkedin.com/in/zachary-williams-b9b038170/">
+            <div id="contact">LinkedIn</div>
+          <a>
+          <a href="mailto:jtimwill@gmail.com">
+            <div id="contact">Email</div>
+          </a>
+        </div>
+      </div>
+      <div class="bar-container">
+        <div class="color-bar">
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+      </div>
+    </div>
+    <div class="project-container">
+      <div class="project">
+        <div class="project-title">01. Plum Runner</div>
+        <img class="project-img" src="images/plum.png" alt="">
+        <div class="bottom-button">More</div>
+        <div class="project-text">
+           is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title">02. Mezza Luna</div>
+        <img class="project-img" src="images/plum.png" alt="">
+        <div class="bottom-button">More</div>
+        <div class="project-text">
+           is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title">03. Husha House</div>
+        <img class="project-img" src="images/plum.png" alt="">
+        <div class="bottom-button">More</div>
+        <div class="project-text">
+           is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title">04. Coda 1</div>
+        <img class="project-img" src="images/plum.png" alt="">
+        <div class="bottom-button">More</div>
+        <div class="project-text">
+           is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title">05. Bio-sock</div>
+        <img class="project-img" src="images/plum.png" alt="">
+        <div class="bottom-button">More</div>
+        <div class="project-text">
+           is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title">06. Peony</div>
+        <img class="project-img" src="images/plum.png" alt="">
+        <div class="bottom-button">More</div>
+        <div class="project-text">
+           is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const colors = document.getElementsByClassName("color");
+      const projects = document.getElementsByClassName("project");
+      const images = document.getElementsByClassName("project-img");
+      const header = document.getElementsByClassName("header")[0];
+      const hero_nav = document.getElementsByClassName("hero-nav")[0];
+      const bar_container = document.getElementsByClassName("bar-container")[0];
+      const color_bar = document.getElementsByClassName("color-bar")[0];
+      const project_container = document.getElementsByClassName("project-container")[0];
+      const project_text = document.getElementsByClassName("project-text");
+
+      const color_list = [
+        ["#0E0309", "#181451", "#746EBC", "#1F2B7D", "#F3AAA4", "#A87182"],
+        ["#444233", "#F14A4A", "#677AB5", "#E9B4A9", "#F3F1F6", "#919191"],
+        ["#673A2B", "#967639", "#BDCBD1", "#B99F54", "#D5D2D1", "#F4F0CD"],
+        ["#7E7E74", "#B4B0C9", "#C8C5D2", "#CCC8D7", "#BDBCC0", "#F3F1F6"],
+        ["#D71B21", "#EE3B50", "#F47A7F", "#F4A6A9", "#FFECEC", "#EE8C8C"],
+        ["#3E3333","#768CA5", "#D1D2D9", "#7A9E6D", "#AAB572", "#E5F9DE"],
+        ["blue","blue", "blue", "blue", "blue", "blue"]
+      ];
+
+      for(let i = 0; i < projects.length; i++) {
+        projects[i].onclick = function() { resize_project(i) };
+        projects[i].onmouseenter = function() { bar_color(i) };
+        projects[i].onmouseleave = function() { bar_color(6) };
+        // images[i].onclick = function(e) { show_modal(e, i) };
+      }
+
+      function show_modal(index) {
+        // e.stopPropagation();
+
+        if (!!header.className.includes("show-modal")) {
+          hide_modal(index);
+          return;
+        }
+
+        header.classList.add("show-modal");
+        header.classList.add("hero-resize");
+        hero_nav.classList.add("hero-nav-resize");
+        bar_container.classList.add("bar-container-resize");
+        color_bar.classList.add("color-bar-resize");
+        project_container.classList.add("project-container-resize");
+        project_text[index].style.display = "block";
+
+        images[index].style.display = "block";
+
+        for (let i = 0; i < colors.length; i++) {
+          colors[i].classList.add("color-resize");
+          if (i != index) {
+            projects[i].style.display = "none";
+          }
+        }
+      }
+
+      function hide_modal(index) {
+
+        header.classList.remove("show-modal");
+        header.classList.remove("hero-resize");
+        hero_nav.classList.remove("hero-nav-resize");
+        bar_container.classList.remove("bar-container-resize");
+        color_bar.classList.remove("color-bar-resize");
+        project_container.classList.remove("project-container-resize");
+        project_text[index].style.display = "none";
+
+        for (let i = 0; i < colors.length; i++) {
+          colors[i].classList.remove("color-resize");
+          if (i != index) {
+            projects[i].style.display = "flex";
+          }
+        }
+      }
+
+      // element5.onmouseleave = function() { bar_color(6) };
+
+      function bar_color(index) {
+        for(let i = 0; i < colors.length; i++) {
+          colors[i].style.background = color_list[index][i];
+        }
+      }
+
+      function resize_project(index) {
+        if (!!header.className.includes("show-modal")){
+          hide_modal(index);
+          return;
+        }
+
+        if (!!projects[index].className.includes("fat") &&
+            !!projects[index].className.includes("tall")) {
+          // reset_projects();
+          show_modal(index)
+          return;
+        }
+
+        const pairs = { 0: 3, 1: 4, 2: 5, 3: 0, 4: 1, 5: 2 };
+        const opp = pairs[index];
+
+        for (let i = 0; i < colors.length; i++) {
+          if (i == index) {
+            projects[i].classList.add("active");
+            images[i].style.display = "block";
+          } else {
+            projects[i].classList.remove("active");
+            images[i].style.display = "none";
+          }
+        }
+
+
+        for(let i = 0; i < colors.length; i++) {
+          if (i == index || i == opp) {
+            projects[i].classList.add("fat");
+            projects[i].classList.remove("thin");
+          } else {
+            projects[i].classList.add("thin");
+            projects[i].classList.remove("fat");
+          }
+          if (index < 3 && i < 3 || index >= 3 && i >= 3) {
+              projects[i].classList.add("tall");
+              projects[i].classList.remove("short");
+            } else {
+              projects[i].classList.add("short");
+              projects[i].classList.remove("tall");
+            }
+        }
+      }
+
+      // function reset_projects(){
+      //   for(let i = 0; i < colors.length; i++) {
+      //     projects[i].classList.remove("active");
+      //     projects[i].classList.remove("thin");
+      //     projects[i].classList.remove("fat");
+      //     projects[i].classList.remove("tall");
+      //     projects[i].classList.remove("short");
+      //     images[i].style.display = "none"; // Technically, you just need to hide one img...
+      //   }
+      // };
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+// Grid Layout
+https://www.w3schools.com/css/css_grid_container.asp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+
+// Flexbox
+https://www.w3schools.com/css/css3_flexbox.asp
+
+https://stackoverflow.com/questions/45536537/centering-in-css-grid/45599428
+
+https://stackoverflow.com/questions/24197007/how-can-i-show-three-columns-per-row
+
+// Height
+https://stackoverflow.com/questions/24174818/height-100-in-js
+
+// Margin auto
+https://www.sitepoint.com/community/t/when-will-margin-auto-work-and-not-work/10694/2
+
+
+// Links
+https://www.w3schools.com/html/html_links.asp
+
+// Images
+https://www.w3schools.com/html/html_images.asp
+https://www.w3schools.com/howto/howto_css_image_center.asp
+
+https://www.w3schools.com/howto/howto_js_toggle_class.asp
+
+
+https://stackoverflow.com/questions/3007336/how-do-you-assign-a-javascript-onclick-attribute-dynamically
+
+https://stackoverflow.com/questions/36523742/disable-javascript-based-on-screen-size
+
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+// JavaScript Priority
+https://stackoverflow.com/questions/46054334/javascript-overriding-css-display-property-after-change-of-media-query
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/Screen/width
+https://www.w3schools.com/howto/howto_js_toggle_class.asp
+https://www.w3schools.com/howto/howto_js_add_class.asp
+https://www.w3schools.com/howto/howto_js_remove_class.asp
+// ! important
+https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+https://www.w3schools.com/jsref/event_onmouseover.asp
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseenter
+https://www.w3schools.com/jsref/met_element_addeventlistener.asp
+
+
+https://www.gapintelligence.com/system/pictures/663/content_the-flexbox-one-page-cheat-sheet.jpg
+
+
+// Modal
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
+
+https://www.w3schools.com/jsref/prop_node_childnodes.asp
+
+//Propagation
+https://stackoverflow.com/questions/38861601/how-to-only-trigger-parent-click-event-when-a-child-is-clicked
+
+https://stackoverflow.com/questions/8919682/remove-all-styling-formatting-from-hyperlinks/8919740
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
